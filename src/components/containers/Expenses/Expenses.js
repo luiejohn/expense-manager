@@ -122,7 +122,6 @@ class Expenses extends Component {
                                     </div>
 
                                     :  searchedItems.map( expense => {
-                                        console.log(expense)
                                         return(
                                             <div key={expense.id} className={style.list_item}>
                                                 <div className={style.list_item_icon}>
