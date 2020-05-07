@@ -1,3 +1,12 @@
+## To Use the App
+
+1 .Clone or download the app
+
+2. Run script `npm install` to install dev dependencies. 
+
+3. Run `npm start` to start local dev server
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
