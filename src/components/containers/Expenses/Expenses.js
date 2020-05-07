@@ -19,7 +19,7 @@ class Expenses extends Component {
           date:"",
           category: "Choose Category",
           note: "",
-          expand: true,
+          expand: false,
           isModal: false
         }
     }
@@ -184,7 +184,7 @@ class Expenses extends Component {
                         </div>
                         </div>
                     </div>
-                    <div className={ style.category_items }>
+                    <div className={ expand ? style.category_items : `${style.category_items} ${style.category_items_hide}` }>
                         {
                             categories.map( cat => {
                                 return (
